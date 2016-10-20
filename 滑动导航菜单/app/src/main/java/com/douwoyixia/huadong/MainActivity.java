@@ -11,6 +11,7 @@ import android.util.Log;
 
 public class MainActivity extends AppCompatActivity 
 {
+    
 
     private SlidingPaneLayout mSlidingPane;
     private LinearLayout ll_menu,ll_main;
