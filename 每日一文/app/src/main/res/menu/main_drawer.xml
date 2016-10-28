@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/navigation_item1"
+            android:checkable="true"
+            android:title="酷评科技1"
+            android:icon="@drawable/ic_launcher"/>
+        <item android:id="@+id/navigation_item2"
+            android:checkable="true"
+            android:title="酷评科技2"
+            android:icon="@drawable/ic_launcher"/>
+        <item android:id="@+id/navigation_item3"
+            android:checkable="true"
+            android:title="酷评科技3"
+            android:icon="@drawable/ic_launcher"/>
+    </group>
+    <item android:id="@+id/navigation_sub"
+        android:title="设置">
+        <menu>
+            <item android:id="@+id/navigation_sub_item2"
+                android:checkable="true"
+                android:title="检查更新"
+                android:icon="@drawable/ic_launcher"/>
+            <item android:id="@+id/navigation_sub_item3"
+                android:checkable="true"
+                android:title="关于"
+                android:icon="@drawable/ic_launcher"/>
+        </menu>
+    </item>
+	<item android:id="@+id/navigation_sub1"
+        android:title="设置">
+        <menu>
+            <item android:id="@+id/navigation_sub1_item2"
+                android:checkable="true"
+                android:title="检查更新"
+                android:icon="@drawable/ic_launcher"/>
+            <item android:id="@+id/navigation_sub1_item3"
+                android:checkable="true"
+                android:title="关于"
+                android:icon="@drawable/ic_launcher"/>
+        </menu>
+    </item>
+	
+	<item android:id="@+id/navigation_sub2"
+        android:title="设置">
+        <menu>
+            <item android:id="@+id/navigation_sub2_item2"
+                android:checkable="true"
+                android:title="检查更新"
+                android:icon="@drawable/ic_launcher"/>
+            <item android:id="@+id/navigation_sub2_item3"
+                android:checkable="true"
+                android:title="能滑动"
+                android:icon="@drawable/ic_launcher"/>
+        </menu>
+    </item>
+</menu>

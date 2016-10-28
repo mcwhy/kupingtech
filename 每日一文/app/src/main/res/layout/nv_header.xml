@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="180dp"
+	android:background="@drawable/background_material"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:padding="16dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_marginTop="8dp"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:gravity="center_vertical">
+
+		<ImageView
+			android:id="@+id/profile_image"
+			android:layout_width="76dp"
+			android:layout_height="76dp"
+			android:background="@drawable/kuping"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="公众号 酷评科技"
+				android:textSize="14sp"
+				android:textColor="#FFF"
+				android:textStyle="bold"
+				android:paddingBottom="4dp"/>
+			
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="MD系列教程"
+				android:textSize="14sp"
+				android:textColor="#fff"/>
+			
+		</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>
+
