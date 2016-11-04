@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+        <!--在后续版本中可以开发支持手机号方式注册-->
+		<Button
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="邮箱注册"
+			android:layout_width="0dp"
+			android:background="#E98E12"/>
+		<Button
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="手机快速注册"
+			android:layout_width="0dp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+        <!--左侧文字提示-->
+		<LinearLayout
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:orientation="vertical"
+			android:layout_gravity="left|center_vertical"
+			android:gravity="center">
+			<TextView
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:text="用户名"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+            <TextView
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:text="QQ号"
+                android:layout_width="match_parent"
+				android:textSize="15sp"/>
+			<TextView
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:text="电子邮箱"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+			<TextView
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:text="手机号码"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+			<TextView
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:text="密码"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+			<TextView
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:text="确认密码"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+		</LinearLayout>
+        <!--右侧填写文字框-->
+		<LinearLayout
+			android:layout_weight="4"
+			android:layout_height="wrap_content"
+			android:layout_width="0dp"
+			android:orientation="vertical">
+			<EditText
+				android:id="@+id/regName"
+				android:hint="请输入姓名"
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+            
+            <EditText
+                android:id="@+id/regQQ"
+                android:hint="请输入QQ号"
+                android:gravity="left|center_vertical"
+                android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:textSize="15sp"/>
+            
+            
+
+			<EditText
+				android:id="@+id/regEmail"
+				android:hint="请输入您的电子邮箱地址"
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/regTelNumber"
+				android:hint="请输入您的手机号码"
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/regPassword"
+				android:inputType="textPassword"
+				android:hint="请设置您的密码"
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+
+			<EditText
+				android:id="@+id/regPasswordCheck"
+				android:inputType="textPassword"
+				android:hint="请再次输入确认您的密码!"
+				android:gravity="left|center_vertical"
+				android:layout_height="40dp"
+				android:layout_width="match_parent"
+				android:textSize="15sp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="请注意，密码必须使用6-16位字符，并且由英文字母和数字组成！"
+		android:layout_width="match_parent"
+		android:textColor="#EC124A"/>
+
+	<Button
+		android:id="@+id/emailRegisterBtn"
+		android:onClick="onClickBtnEmailRegister"
+		android:layout_height="wrap_content"
+		android:text="提交注册"
+		android:layout_width="match_parent"/>
+
+	<TextView
+		android:layout_height="match_parent"
+		android:text="酷评科技！让生活更美好！"
+		android:layout_width="match_parent"
+		android:gravity="center"/>
+
+</LinearLayout>
+

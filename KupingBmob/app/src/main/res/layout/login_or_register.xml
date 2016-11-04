@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="bottom">
+
+	<TextView
+		android:layout_weight="1"
+		android:layout_height="0dp"
+		android:text="欢迎使用酷评科技提供的服务！"
+		android:layout_width="match_parent"
+		android:gravity="center"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/loginBtn"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="登    陆"
+			android:layout_width="0dp"
+			android:onClick="onClickBtnLogin"
+			android:layout_marginLeft="5dp"
+			android:paddingRight="5dp"/>
+
+		<Button
+			android:id="@+id/userRegisterBtn"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="注    册"
+			android:layout_width="0dp"
+			android:onClick="onClickBtnUserRegister"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="5dp"
+		android:text=""
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+
