@@ -1,11 +1,32 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="新增上传图片到Bmob后台功能，请准备一张图片命名为【1.jpg】放到根目录下"
+		android:id="@+id/userInfoTv"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="上传图片"
+		android:onClick="onClickBtnUploadPic"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="选择图片(暂时有错误不要点击）"
+		android:onClick="onClickImageFirst"/>
 
 </LinearLayout>
+

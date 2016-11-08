@@ -41,17 +41,18 @@ public final class R {
         public static final int bmob_update_id_ignore=0x7f060006;
         public static final int bmob_update_id_ok=0x7f060004;
         public static final int bmob_update_wifi_indicator=0x7f060000;
-        public static final int emailLoginBtn=0x7f06000b;
-        public static final int emailRegisterBtn=0x7f060012;
+        public static final int emailLoginBtn=0x7f06000c;
+        public static final int emailRegisterBtn=0x7f060013;
         public static final int loginBtn=0x7f060007;
-        public static final int loginEmail=0x7f060009;
-        public static final int loginPassword=0x7f06000a;
-        public static final int regEmail=0x7f06000e;
-        public static final int regName=0x7f06000c;
-        public static final int regPassword=0x7f060010;
-        public static final int regPasswordCheck=0x7f060011;
-        public static final int regQQ=0x7f06000d;
-        public static final int regTelNumber=0x7f06000f;
+        public static final int loginEmail=0x7f06000a;
+        public static final int loginPassword=0x7f06000b;
+        public static final int regEmail=0x7f06000f;
+        public static final int regName=0x7f06000d;
+        public static final int regPassword=0x7f060011;
+        public static final int regPasswordCheck=0x7f060012;
+        public static final int regQQ=0x7f06000e;
+        public static final int regTelNumber=0x7f060010;
+        public static final int userInfoTv=0x7f060009;
         public static final int userRegisterBtn=0x7f060008;
     }
     public static final class layout {
