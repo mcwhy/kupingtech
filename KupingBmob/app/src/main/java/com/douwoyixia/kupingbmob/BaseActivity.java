@@ -7,7 +7,7 @@ import android.widget.Toast;
 public class BaseActivity extends Activity
 {
     public static String TAG="BaseActivity";
-    private String Bmon_AppId="换成你自己的Id";
+    private String Bmon_AppId="换成你自己的ID";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
